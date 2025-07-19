@@ -1,7 +1,5 @@
 # Kubernetes-Troubleshooting
 
-# Kubernetes Troubleshooting Skills Portfolio
-
 **Building Production-Ready Kubernetes Expertise**
 
 Developing systematic troubleshooting skills through hands-on practice with realistic Kubernetes scenarios. This portfolio demonstrates my approach to problem-solving and technical documentation
