@@ -3,6 +3,32 @@
 ## Background
 I was working on understanding kubeconfig files and ran into several issues during testing. Here's exactly what I did, the problems I encountered, and how I fixed them step by step.
 
+## 🔍 What This Lab Is About
+
+This lab is a hands-on deep dive into how Kubernetes authentication and authorization work behind the scenes — specifically through the use of kubeconfig files.
+
+Instead of relying on defaults or prebuilt tooling, you'll manually construct, inspect, and troubleshoot a kubeconfig file. You'll learn:
+
+What a kubeconfig file actually contains and how Kubernetes uses it
+
+How authentication works using client certificates and keys
+
+How authorization depends on the context and namespace setup
+
+How to extract real certificate data from an existing config
+
+How to fix common problems like missing contexts, bad paths, or permission issues
+
+This lab is ideal for:
+
+Anyone preparing for Kubernetes certifications (CKA, CKAD)
+
+Engineers trying to understand cluster access control
+
+Anyone who's ever been confused by the structure or behavior of their kubeconfig file
+
+By the end of this lab, you'll not only know how to build a valid kubeconfig manually, but also how to confidently debug it when things go wrong.
+
 ## Setting Up My Test Environment
 
 First, I created a directory and started building my test kubeconfig:
