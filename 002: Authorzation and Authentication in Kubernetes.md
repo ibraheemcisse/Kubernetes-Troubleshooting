@@ -2,9 +2,9 @@
 
 ## 🔍 What This Lab Is About
 
-This lab is a hands-on deep dive into how Kubernetes authentication and authorization work behind the scenes specifically through the use of kubeconfig files.
+Technically, this lab focuses on manually constructing a kubeconfig file to authenticate a user with a Kubernetes cluster using client certificates. It demonstrates how the API server validates identity and grants access based on the active context, without relying on RBAC. I also extract and reference real certificate files, handle permissions, and test configurations using the kubectl config commands.
 
-Instead of relying on defaults or prebuilt tooling, you'll manually construct, inspect, and troubleshoot a kubeconfig file. You'll learn:
+Instead of relying on defaults or prebuilt tooling, I manually constructed, inspected, and troubleshooted the kubeconfig file. By going through this lab I was able to know : 
 
 1. What a kubeconfig file actually contains and how Kubernetes uses it
 
@@ -16,15 +16,6 @@ Instead of relying on defaults or prebuilt tooling, you'll manually construct, i
 
 5. How to fix common problems like missing contexts, bad paths, or permission issues
 
-This lab is ideal for:
-
-Anyone preparing for Kubernetes certifications (CKA, CKAD)
-
-Engineers trying to understand cluster access control
-
-Anyone who's ever been confused by the structure or behavior of their kubeconfig file
-
-By the end of this lab, you'll not only know how to build a valid kubeconfig manually, but also how to confidently debug it when things go wrong.
 
 ## Setting Up My Test Environment
 
