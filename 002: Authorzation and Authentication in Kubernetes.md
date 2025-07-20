@@ -1,23 +1,20 @@
 002: Authorzation and Authentication in Kubernetes
 
-## Background
-I was working on understanding kubeconfig files and ran into several issues during testing. Here's exactly what I did, the problems I encountered, and how I fixed them step by step.
-
 ## 🔍 What This Lab Is About
 
-This lab is a hands-on deep dive into how Kubernetes authentication and authorization work behind the scenes — specifically through the use of kubeconfig files.
+This lab is a hands-on deep dive into how Kubernetes authentication and authorization work behind the scenes specifically through the use of kubeconfig files.
 
 Instead of relying on defaults or prebuilt tooling, you'll manually construct, inspect, and troubleshoot a kubeconfig file. You'll learn:
 
-What a kubeconfig file actually contains and how Kubernetes uses it
+1. What a kubeconfig file actually contains and how Kubernetes uses it
 
-How authentication works using client certificates and keys
+2. How authentication works using client certificates and keys
 
-How authorization depends on the context and namespace setup
+3. How authorization depends on the context and namespace setup
 
-How to extract real certificate data from an existing config
+4. How to extract real certificate data from an existing config
 
-How to fix common problems like missing contexts, bad paths, or permission issues
+5. How to fix common problems like missing contexts, bad paths, or permission issues
 
 This lab is ideal for:
 
